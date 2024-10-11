@@ -29,5 +29,4 @@ deno task test
 
 ## Notes
 
-The `prisma/patch.ts` file needs to be modified so that TypeScript on Deno is able to resolve some
-of the types for the Prisma client.
+The `prisma/patch.ts` file is needed to be modify the TypeScript definition from Prisma so Deno is able to resolve some of the types for the Prisma client.
