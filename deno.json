@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "prisma": "deno run -A --unstable npm:prisma",
+    "prisma": "deno run -A npm:prisma",
     "prisma:generate": "deno task prisma generate --schema ./prisma/schema.prisma && deno task prisma:patch",
     "prisma:patch": "deno run -A prisma/patch.ts",
     "test": "deno test -A"
