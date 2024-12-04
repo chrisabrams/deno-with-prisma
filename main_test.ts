@@ -1,6 +1,4 @@
-import { load } from "@std/dotenv";
-
-await load();
+import "@std/dotenv/load";
 
 import { assertEquals } from "@std/assert";
 import { prisma, Prisma } from "./prisma/client.ts";
